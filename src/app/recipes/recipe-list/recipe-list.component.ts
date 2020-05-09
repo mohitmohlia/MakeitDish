@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 recipes:Recipe[]=[
+  new Recipe('A test recipe', 'this is simple a test','https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chicken_freekeh_chopped_salad_with_leftover_salsa_verde.jpg'),
   new Recipe('A test recipe', 'this is simple a test','https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chicken_freekeh_chopped_salad_with_leftover_salsa_verde.jpg')
 ];
   constructor() { }
