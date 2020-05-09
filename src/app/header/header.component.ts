@@ -5,4 +5,5 @@ import {Component} from '@angular/core';
 })
 
 export class HeaderComponent{
+    collapsed :boolean = true;
 }
